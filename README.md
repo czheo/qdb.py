@@ -20,6 +20,18 @@ Inspired by https://github.com/gfredericks/quinedb
 db
 ```
 
+### Delete key
+```
+> python qdb.py delete quine
+```
+
+### Dump key => value pairs
+```
+> python qdb.py dump
+quine 	=>	 db
+db 	=>	 quine
+```
+
 ### Flush DB
 ```
 > python qdb.py flushdb
