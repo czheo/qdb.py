@@ -38,6 +38,12 @@ class QDB:
 '            elif cmd == "set":',
 '                self.db[sys.argv[2]] = sys.argv[3]',
 '                self.write_db()',
+'            elif cmd == "delete":',
+'                del self.db[sys.argv[2]]',
+'                self.write_db()',
+'            elif cmd == "dump":',
+'                for k, v in self.db.items():',
+'                    print(k, "\\t=>\\t",v)',
 '            elif cmd == "flushdb":',
 '                self.db = {}',
 '                self.write_db()',
@@ -72,6 +78,12 @@ class QDB:
             elif cmd == "set":
                 self.db[sys.argv[2]] = sys.argv[3]
                 self.write_db()
+            elif cmd == "delete":
+                del self.db[sys.argv[2]]
+                self.write_db()
+            elif cmd == "dump":
+                for k, v in self.db.items():
+                    print(k, "\t=>\t",v)
             elif cmd == "flushdb":
                 self.db = {}
                 self.write_db()
