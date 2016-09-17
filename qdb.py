@@ -3,10 +3,6 @@ import os
 class QDB:
     def __init__(self):
         self.db= {
-            '12': '12',
-            '2': '2',
-            '1': '1',
-            '3': '3',
         }
         self.src = [
 'import sys',
