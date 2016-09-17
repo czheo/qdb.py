@@ -6,6 +6,10 @@ Inspired by https://github.com/gfredericks/quinedb
 > Quine DB is a quine that is also a key/value store.
 > If your database can't print its own source code, can you really trust it?
 
+# What is a quine?
+- Definition: https://en.wikipedia.org/wiki/Quine_(computing)
+- Example: https://github.com/mame/quine-relay
+
 # Usage
 ### Print the source code
 ```
