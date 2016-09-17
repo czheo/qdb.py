@@ -9,12 +9,12 @@ Inspired by https://github.com/gfredericks/quinedb
 > python qdb.py
 ```
 
-### Set Key Value
+### Set key => value
 ```
 > python qdb.py set quine db
 ```
 
-### Get Key
+### Get key
 ```
 > python qdb.py get quine
 db
